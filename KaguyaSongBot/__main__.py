@@ -10,9 +10,9 @@ from KaguyaSongBot.sql.chat_sql import add_chat_to_db
 
 start_text = """
 Hey [{}](tg://user?id={}),
-I'm Kaguya 🤗
+I'm Miku ☺️
 Just send me the song name you want to download.
-Eg: ```/song Faded Alan Walker```
+Eg: ```/song Arcade Duncan Laurence```
 """
 
 owner_help = """
@@ -34,7 +34,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Owner", url="https://t.me/Anomaliii"
+                        text="Owner", url="https://t.me/Xlaaf"
                     )
                 ]
             ]
